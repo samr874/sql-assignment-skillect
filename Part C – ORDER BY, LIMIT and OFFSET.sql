@@ -70,7 +70,7 @@ order by price desc limit 1 offset 3;
 
 -- Q46. Skip the first 5 rows and display the next records.
 
-select * from sales
+select * from sales 
 limit 5 offset 5;
 
 -- Q47. Display rows 6 to 10.
@@ -92,6 +92,6 @@ limit 5 offset 15;
 select * from sales
 order by order_date desc limit 3;
 
-
+-- 
 
 

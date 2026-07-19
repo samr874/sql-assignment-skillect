@@ -1,7 +1,0 @@
--- Q51. Find the total number of orders.
-select count(*) as total_orders from sales;
-
--- Q52. Find the total sales revenue.
-desc sales;
-select sum(price) as total_sales from sales;
-

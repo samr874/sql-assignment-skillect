@@ -49,3 +49,6 @@ group by category having minimum_sale>1500;
 select city, avg(age) as avg_age
 from sales
 group by city having avg_age > 25;
+
+
+
